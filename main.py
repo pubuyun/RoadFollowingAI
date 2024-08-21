@@ -104,4 +104,4 @@ transform = transforms.Compose([
 image = Image.open('resources/1.jpg')
 image = transform(image)
 outputs = model(torch.unsqueeze(image,0))
-outputs
+print(outputs)
